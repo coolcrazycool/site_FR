@@ -1,0 +1,259 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #181a1b;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    background: url(../img/face_golo.jpeg) no-repeat center top / cover;
+    padding-bottom: 160px;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-top: 30px;
+    float: left;
+}
+
+nav {
+    float: right;
+    margin-top: 50px;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 30px;
+}
+
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-shadow: black 2px 2px 2px;
+}
+
+.titles_first {
+    color: #ffffff;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: black 2px 2px 2px;
+    margin-top: 180px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 75px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: black 2px 2px 2px;
+    margin: 35px;
+}
+
+.button {
+    background: #ad3100;
+    color: #ffffff;
+    border-radius: 5px;
+    display: block;
+    width: 250px;
+    padding: 20px 0;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 50px auto 0;
+}
+
+.title {
+    padding-top: 115px;
+}
+
+.title p {
+    color: #bdb8af;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.title h2 {
+    color: #dcd9d4;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.services {
+    margin-top: 50px;
+}
+
+.services_item {
+    width: 300px;
+    float: left;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.services_item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.services_item h3 {
+    color: #dcd9d4
+}
+
+.services_item p {
+    font-size: 14px;
+    color: #bdb8af;
+    line-height: 1.5em;
+}
+
+.services_item:last-child {
+    float: right;
+}
+
+.services_item:nth-child(2) {
+    margin-left: 90px;
+}
+
+.versions_img_left {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 100px;
+    float: left;
+    margin: 20px;
+}
+
+.versions_img_right {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 100px;
+    float: right;
+    margin: 20px;
+}
+
+.version_item_right {
+    text-align: center;
+    float: left;
+}
+
+.version_item_left {
+    text-align: center;
+    float: right;
+}
+
+.version_item_left h3 {
+    padding-top: 25px;
+    color: #dcd9d4
+}
+
+.version_item_left p {
+    font-size: 14px;
+    color: #bdb8af;
+    line-height: 1.5em;
+    padding-bottom: 50px;
+}
+
+.version_item_right h3 {
+    padding-top: 25px;
+    color: #dcd9d4
+}
+
+.version_item_right p {
+    font-size: 14px;
+    color: #bdb8af;
+    line-height: 1.5em;
+    padding-bottom: 50px;
+}
+
+#services {
+    padding-bottom: 100px;
+}
+
+#versions {
+    padding-bottom: 100px;
+    background: #212121;
+}
+
+#contacts {
+    padding-bottom: 100px;
+}
+
+form {
+    border: 1px solid #bdb8af;
+    border-radius: 5px;
+    font: 14px/1.4 Arial, sans-serif;
+    overflow: hidden;
+    width: 1000px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    border-radius: 5px;
+    font: 14px/1.4 Arial, sans-serif;
+    margin: 0;
+}
+
+.your-account {
+    padding: 20px 20px 0 20px;
+}
+
+.your-account label {
+    color: #395870;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.account-action {
+    background: #f0f0f2;
+    border-top: 1px solid #c6c7cc;
+    padding: 20px;
+}
+
+.account-action .btn {
+    background: linear-gradient(#49708f, #293f50);
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 16px;
+}
