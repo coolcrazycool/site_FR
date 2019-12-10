@@ -24,7 +24,7 @@
                             <a href="#">Разрабатываемые версии</a>
                         </li>
                         <li>
-                            <a href="#">Контакты</a>
+                            <a href="#">Присоединиться</a>
                         </li>
                         <li>
                             <a href="#">Галерея</a>
@@ -159,42 +159,24 @@
         <div class="container">
             <div class="title">
                 <h2>
-                    Контакты
+                    Присоединиться к разработке
                 </h2>
                 <p>
                     Будь ближе к глубинам науки
                 </p>
             </div>
-            <div class="contacts clearfix">
-                <form class="form">
-                    <fieldset class="your-account">
-                        <label>
-                            Ваш E-mail
-                            <input type="email" name="email-address" class="feedback-input" placeholder="E-mail" id="email" required>
-                        </label>
-                        <label>
-                            Ваше имя
-                            <input type="text" name="username" class="feedback-input" placeholder="Name" id="name" required>
-                        </label>
-                        <label>
-                            Отзыв
-                            <textarea name="text" id="comment" placeholder="Message">
-
-                            </textarea>
-                        </label>
-                        <label>
-                            Ваш текущий статус
-                                <input type="radio" name="study" value="SubSchool"> Дошкольник
-                                <input type="radio" name="study" value="School"> Школьник
-                                <input type="radio" name="study" value="Student"> Студент
-                                <input type="radio" name="study" value="Other"> Остальные
-                        </label>
-                    </fieldset>
-                    <fieldset class="account-action">
-                        <input class="btn" type="button" name="send" value="Отправить">
-                    </fieldset>
-                </form>
-            </div>
+            <form id="sign_op">
+                <label>
+                    <input placeholder="email@email.com" required="" type="email">
+                </label>
+                <label>
+                    <input placeholder="Выберите пароль" required="" type="password">
+                </label>
+                <label>
+                    <input placeholder="Повторите пароль" required="" type="password">
+                </label>
+                <button type="submit">Зарегистрироваться</button>
+            </form>
         </div>
     </section>
     <footer>
